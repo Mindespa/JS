@@ -26,15 +26,31 @@
             console.log(Math.round( num2 / num1 * 100) / 100);
         }else{
             console.log(Math.round( num1 / num2 * 100) / 100);
-        }    
+        }
+        
+        
         // let rezult = num2 / num1;
         // console.log(Math.round( rezult * 100) / 100);
         
         console.log("===== 3 uzduotis =======");
 
-        let num3 = (Math.random() * 25);
-        let num4 = (Math.random() * 25);
-        let num5 = (Math.random() * 25);
+        let num31 = (Math.random() * 25);
+        let num32 = (Math.random() * 25);
+        let num33 = (Math.random() * 25);
+
+        console.log(num31, num32, num33 );
+        if( (num31 > num32 && num31 < num33) || (num31 < num32 && num31 > num33) ){
+            console.log(num33);
+        }
+        if( (num32 > num31 && num32 < num33) || (num32 < num31 && num32 > num33) ){
+            console.log(num33);
+        }
+        if( (num33 > num32 && num33 < num31) || (num33 < num32 && num33 > num31) ){
+            console.log(num33);
+        }
+        
+        
+    
         
 
 
