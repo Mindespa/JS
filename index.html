@@ -34,28 +34,50 @@
         
         console.log("===== 3 uzduotis =======");
 
-        let num31 = (Math.random() * 25);
-        let num32 = (Math.random() * 25);
-        let num33 = (Math.random() * 25);
+           let n1 = (Math.random() *25);
+           let n2 = (Math.random() *25);
+           let n3 = (Math.random() *25);
+           console.log(n1, n2, n3);
+           if ((n1 > n2 && n1 < n3) || (n1 < n2 && n1 > n3)){
+           console.log(n1);
+           }
+           if((n2 > n1 && n2 < n3) || (n2 < n1 && n2 > n3) ){
+           console.log(n1);
+           }
+           if( (n3 > n2 && n3 < n1) || (n3 < n2 && n3 > n1)){
+            console.log(n1);
+           }
+        // let num31 = (Math.random() * 25);
+        // let num32 = (Math.random() * 25);
+        // let num33 = (Math.random() * 25);
 
-        console.log(num31, num32, num33 );
-        if( (num31 > num32 && num31 < num33) || (num31 < num32 && num31 > num33) ){
-            console.log(num33);
+        // console.log(num31, num32, num33);
+        // if( (num31 > num32 && num31 < num33) || (num31 < num32 && num31 > num33) ){
+        //     console.log(num33);
+        // }
+        // if( (num32 > num31 && num32 < num33) || (num32 < num31 && num32 > num33) ){
+        //     console.log(num33);
+        // }
+        // if( (num33 > num32 && num33 < num31) || (num33 < num32 && num33 > num31) ){
+        //     console.log(num33);
+        // }
+
+        console.log("===== 4 uzduotis =======");
+
+        let a = 1 + Math.round(Math.random() * 9 );
+        let b = 1 + Math.round(Math.random() * 9 );
+        let c = 1 + Math.round(Math.random() * 9 );
+        console.log(a, b, c);
+
+        if(a + b > c && a + c > b && b + c > a){
+            console.log("turime trikampi");
+        }else{
+            console.log("neturime");
         }
-        if( (num32 > num31 && num32 < num33) || (num32 < num31 && num32 > num33) ){
-            console.log(num33);
-        }
-        if( (num33 > num32 && num33 < num31) || (num33 < num32 && num33 > num31) ){
-            console.log(num33);
-        }
-        
-        
-    
-        
-
-
-
      
+        console.log("===== 5 uzduotis =======");
+        
+
 
     </script>
 </body>
