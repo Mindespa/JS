@@ -40,3 +40,6 @@ console.log(abname);
 
 console.log(" 5 uzduotis");
 
+let word = "An American in Paris";
+
+console.log(word.replaceAll("A","*").replaceAll("a","*"));
