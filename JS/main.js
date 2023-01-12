@@ -27,6 +27,16 @@ let nmsrnm = "";
 nmsrnm += actname.charAt(0);
 nmsrnm = nmsrnm + actname.charAt(0);
 nmsrnm += actsrnm.charAt(0);
-nmsrnm = nmsrnm + actsrnm.charAt(0);
-console.log(actname.charAt(0)+actsrnm.charAt(0));
+// nmsrnm = nmsrnm + actsrnm.charAt(0);
+// console.log(actname.charAt(0)+actsrnm.charAt(0));
 console.log(nmsrnm);
+
+console.log(" 4 uzduotis");
+
+let aname = "Benicio";
+let bname = "Deltoro";
+let abname = aname.substring(aname.length - 3) + " " + bname.substring(bname.length - 3);
+console.log(abname);
+
+console.log(" 5 uzduotis");
+
