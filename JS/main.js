@@ -54,3 +54,11 @@ let weirdText2 = "2001: A Space Odyssey";
 console.log( weirdText2.replaceAll(/[aeiouy]/gi, ''));
 let weirdText3 = "It's a Wonderful Life";
 console.log( weirdText3.replaceAll(/[aeiou]/gi, ''));
+
+console.log(" 7 uzduotis");
+
+let weirdText4 = "Star Wars: Episode "+ " ".repeat( Math.ceil(Math.random() * 10))+(Math.ceil (Math.random() * 7)+1) + " - A New Hope";
+console.log(weirdText4);
+
+console.log(weirdText4.charAt(weirdText4.length - 14));
+
