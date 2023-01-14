@@ -43,3 +43,14 @@ console.log(" 5 uzduotis");
 let word = "An American in Paris";
 
 console.log(word.replaceAll("A","*").replaceAll("a","*"));
+
+console.log(" 6 uzduotis");
+
+let weirdText = "An American in Paris";
+console.log( weirdText.replaceAll(/[aeiou]/gi, ''));
+let weirdText1 = "Breakfast at Tiffany's";
+console.log( weirdText1.replaceAll(/[aeiou]/gi, ''));
+let weirdText2 = "2001: A Space Odyssey";
+console.log( weirdText2.replaceAll(/[aeiouy]/gi, ''));
+let weirdText3 = "It's a Wonderful Life";
+console.log( weirdText3.replaceAll(/[aeiou]/gi, ''));
