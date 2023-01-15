@@ -19,3 +19,13 @@ for (let i = 10; i < 50; i++) {
     }
     
 }
+
+console.log("  7 uzduotis");
+
+for (let i = 10; i < 50; i++) {
+    if (i%2==0 || i%10==0) {
+        continue;
+    }    
+    console.log(i);
+    
+}
