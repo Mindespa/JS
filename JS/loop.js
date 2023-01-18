@@ -68,3 +68,16 @@ for (let i = 0; i < 20; i++) {
 console.log(count);
 
 console.log("  9 uzduotis");
+
+let count5 = 0;
+let count7 = 0;
+for (let i = 0; i < augalai.length; i++) {
+  if (augalai[i].length < 5) {
+      count5++;
+    
+  }
+    if(augalai[i].length > 7){
+        count7++;
+    }
+}
+console.log("augalu trumpesniu nei 5 simboliai yra " + count5, ",o ilgesniu nei 7 simboliai yra " + count7);
