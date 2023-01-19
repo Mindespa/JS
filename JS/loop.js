@@ -81,3 +81,33 @@ for (let i = 0; i < augalai.length; i++) {
     }
 }
 console.log("augalu trumpesniu nei 5 simboliai yra " + count5, ",o ilgesniu nei 7 simboliai yra " + count7);
+
+console.log(" SUNKESNI 1 uzduotis");
+
+let skaiciai = 0;
+let myResult = "";
+for (let i = 0; i < 300; i++) {
+    let rndNum = Math.round(Math.random() * 300);
+
+    if ( rndNum >= 150) {
+        skaiciai++
+    }
+
+    if (rndNum >= 275) {
+        myResult += "[" + rndNum + "] ";
+    }else{
+        myResult += rndNum + " ";
+    }
+   
+    
+}
+console.log(myResult);
+
+console.log(" SUNKESNI 2 uzduotis");
+
+let numeriai = "";
+for (let i = 77; i < 3000; i+=77) {
+      numeriai += i + (",");      
+    }
+    console.log(numeriai.slice(0,-1));
+
