@@ -69,18 +69,18 @@ console.log(count);
 
 console.log("  9 uzduotis");
 
-let count5 = 0;
-let count7 = 0;
-for (let i = 0; i < augalai.length; i++) {
-  if (augalai[i].length < 5) {
-      count5++;
+// let count5 = 0;
+// let count7 = 0;
+// for (let i = 0; i < augalai.length; i++) {
+//   if (augalai[i].length < 5) {
+//       count5++;
     
-  }
-    if(augalai[i].length > 7){
-        count7++;
-    }
-}
-console.log("augalu trumpesniu nei 5 simboliai yra " + count5, ",o ilgesniu nei 7 simboliai yra " + count7);
+//   }
+//     if(augalai[i].length > 7){
+//         count7++;
+//     }
+// }
+// console.log("augalu trumpesniu nei 5 simboliai yra " + count5, ",o ilgesniu nei 7 simboliai yra " + count7);
 
 console.log(" SUNKESNI 1 uzduotis");
 
@@ -111,3 +111,96 @@ for (let i = 77; i < 3000; i+=77) {
     }
     console.log(numeriai.slice(0,-1));
 
+    console.log(" SUNKESNI 3 uzduotis");
+
+for (let a = 1; a <= 10; a++){
+     let row = "";
+     for(let i = 1; i <= 10; i++){
+        
+     }
+}
+    
+console.log("  1 uzduotis");
+
+for (let i = 0; i < 10; i++) {
+     console.log("Labas"); 
+    
+}
+
+console.log("  2 uzduotis");
+
+let i = 0;
+for (let i = 0; i < 10; i++) {
+    console.log(i);
+    
+}
+
+console.log("  3 uzduotis");
+
+let sk1 = 0;
+
+let augalaii = ["pusis","egle","uosis","berzas","klevas","azuolas","braske","aviete","morka","svogunas"];
+console.log(augalaii);
+
+console.log("  4 uzduotis");
+
+let augalaiii = ["pusis","egle","uosis","berzas","klevas","azuolas","braske","aviete","morka","svogunas"];
+for (let i = 0; i < augalaiii.length; i++) {
+    console.log(augalaiii[i]);
+    
+}
+
+console.log("  5 uzduotis");
+
+let augalai3 = ["pusis","egle","uosis","berzas","klevas","azuolas","braske","aviete","morka","svogunas"];
+for (let i = augalai3.length -1; i >= 0; i--) {
+    console.log(augalai3[i]);
+    
+}
+
+console.log("  6 uzduotis");
+
+for (let i = 10; i < 50; i++) {
+    if(i%2==0) {
+       console.log(i); 
+
+    }
+    
+}
+
+console.log("  7 uzduotis");
+
+for (let i = 10; i < 50; i++) {
+    if(i%2==0){
+        if(i%10==0){
+            continue;
+        }
+        console.log(i);
+    }
+    
+}
+
+console.log("  8 uzduotis");
+
+let count3 = 0;
+for (let i = 0; i < 20; i++) {
+    if(i%2==0){
+        count3++;
+    }
+    
+}
+console.log(count3);
+
+console.log("  9 uzduotis");
+
+let count5 = 0;
+let count7 = 0;
+for (let i = 0; i < augalaii.length; i++) {
+    if(augalaii[i].length < 5);{
+        count5++;
+    }
+    if(augalaii[i].length > 7);
+        count7++;
+    
+}
+console.log("augalu trumpesniu nei 5 simboliai yra " + count5, " ,augalu ilgesniu nei 7 simboliai yra " + count7);
